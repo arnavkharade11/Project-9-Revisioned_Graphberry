@@ -3,6 +3,354 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+
+/* Media Query of 480px */
+@media (max-width:480px) {
+  /* Start of Navbar */
+  
+  nav {
+    flex-wrap: wrap;
+  }
+
+  /*  End of NavBar */
+
+
+  /*  Start of First Page */
+  .first_page {
+    flex-wrap: wrap !important;
+    height: 780px !important;
+    gap: 40px;
+  }
+
+
+.fp_info {
+  width: 100% !important;
+  align-items: center !important;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+
+.text_button_div {
+  display: block !important;
+  /* border: 2px solid red !important; */
+  align-items: end !important;
+  width: 75% !important;
+  margin-top: -20px !important;
+}
+
+  .fp_images {
+  width: 100% !important;
+  }
+
+  .fp_img {
+    top: 50px !important;
+    left: 50px;
+  }
+
+  .fp_img  img{
+    height: 350px !important;
+    width: 250px !important;
+  }
+
+  .note {
+    top: 250px;
+    height: fit-content !important;
+    width: 180px !important;
+  }
+
+  .grey {
+    width: 300px !important;
+    height: 400px !important;
+  }
+
+  /*  End of First Page */
+
+  /* Start of First Page Footer */
+
+  .fp_bottom {
+    margin-top: 120px !important;
+  }
+
+  .fp_bottom_div {
+    overflow: scroll;
+  }
+
+  /* End of First Page Footer */
+
+
+  /* Start of Second Page */
+  .second_page_heading {
+    display: flex ;
+    flex-direction: column;
+    gap: 10px !important;
+  }
+
+  .second_page_h {
+    font-weight: 800;
+  }
+
+  .second_page_hp {
+    font-weight: bolder;
+    line-height: 1.3;
+  }
+
+  .second_content {
+    margin-left: 40px !important;
+  }
+
+  /* End of Second Page */
+
+
+  /* Start of Third Page */
+  .third_page {
+    height: 1000px;
+    flex-wrap: wrap;
+  }
+
+  .tp_1 {
+    margin-left: 0 !important;
+    margin-bottom: 50px;
+  }
+
+  .third_page_content {
+    align-items: center !important;
+    display: flex !important;
+    flex-direction: column !important;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .tp_p {
+    font-weight: bolder;
+    line-height: 1.2;
+    max-width: 90%;
+  }
+
+  .tp_2 {
+    padding-top: 50px;
+  }
+
+  .tp_img_1 {
+    width: 250px !important;
+    height: 258px !important;
+    top: -50px !important;
+    left: 35px !important;
+  }
+
+  .tp_img_2 {
+    width: 175px !important;
+    height: 295px !important;
+    top: -90px !important;
+    left: 320px !important;
+  }
+
+  .tp_img_3 {
+    width: 175px !important;
+    height: 190px !important;
+    top: 258px !important;
+    left: -120px !important;
+  }
+
+  .tp_img_4 {
+    width: 200px !important;
+    height: 205px !important;
+    top: -80px !important;
+    left: 288px !important;
+  }
+
+  /* End of Third Page */
+
+  /* Start of Fourth Page */ 
+  
+  .fp_header {
+    width: 80% !important;
+  }
+
+  .fp_h1 {
+    font-weight: 850 !important;
+    font-size: 44px !important;
+  }
+
+  .fp_p {
+    font-weight: bolder;
+    line-height: 1.4 !important;
+  }
+
+  .img_cards {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  /* End of Fourth Page */
+
+
+
+  /* Start of Fifth Page */
+
+  .fifth_page {
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fifth_pg_img {
+    width: 300px !important;
+    height: 500px !important;
+    top: 25px !important;
+    left: -35px !important;
+  }
+
+  .fifth_page_2 {
+    max-width: 100% !important;
+    padding-bottom: 50px !important;
+  }
+
+  .fifth_page_2 h2 {
+    font-weight: 900;
+    font-size: 23px !important;
+  }
+
+  .fifth_page_2 h1 {
+    font-weight: 900;
+  }
+
+  .fifth_page_2 p {
+    font-weight: bolder;
+    line-height: 1.3;
+    font-size: large;
+  }
+
+  /* End of Fifth Page */
+
+  /* Start of Sixth Page */
+
+  .six_page_header {
+    padding-bottom: 0px !important;
+  }
+
+  .six_page_header h1{
+    font-weight: 750 !important;
+  }
+
+  .six_page_header p {
+    font-weight: bolder;
+    line-height: 1.5 !important;
+    max-width: 80% !important;
+  }
+
+  .sixth_cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .sj p {
+    font-size: 26px;
+    font-weight: bolder;
+  }
+
+  /*  End of Sixth Page  */
+  
+
+  /*  Start of Seventh Page  */
+
+  .seventh_header p {
+    font-size: 21px !important;
+    font-weight: 800;
+  }
+
+  .quote {
+    font-size: 20px;
+  }
+
+  .ralph {
+    font-size: 18px !important;
+  }
+
+  /*  End of Seventh Page */
+
+
+  /* Start of Eight Page */
+
+  .eight_container {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 40px !important;
+    height: auto !important;
+  }
+
+  .eight_content {
+    margin: auto;
+    height: fit-content !important;
+  }
+
+  span {
+    font-size: 30px !important;
+  }
+
+  .eight_content p {
+    font-size: 18px !important;
+    margin-bottom: 5px;
+  }
+
+  .eight_div_list li {
+    font-size: 20px !important;
+  }
+
+  /* End of Eight Page */
+
+
+  /* Start of Ninth Page */
+
+  .nine_page {
+    display: flex;
+    flex-direction: column !important;
+    height: 1300px;
+  }
+
+  .nine_content_1 {
+    max-width: 100% !important;
+  }
+
+  .nine_header {
+    max-width: 70%;
+  }
+
+  .nine_img_1 {
+    top: -450px !important;
+    right: 20px !important;
+    height: 210px !important;
+    width: 200px !important;
+  }
+
+  .nine_img_2 {
+  top: -175px !important;
+  right: 20px !important;
+  height: 200px !important;
+  width: 200px !important;
+  }
+
+  .nine_img_3 {
+  top: -370px !important;
+  left: 20px !important;
+  height: 340px !important;
+  width: 200px !important;
+  }
+
+  /* End of Ninth Page */
+
+
+  /* Start of Footer */
+
+  .footer_content {
+    gap: 20px !important;
+  }
+
+  /* End of Footer */
+}
+
+
+
 /* Start of navbar */
 
 .logo {
@@ -102,6 +450,7 @@
     flex-direction: column;
     align-items: left;
     padding: 15px;
+    /* gap: 10px; */
    }
 
    .fp_text {
@@ -335,7 +684,7 @@
   .second_content {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 0 20px 20px;
+    padding: 20px 20px 20px 20px;
     gap: 20px;
     margin-bottom: 50px;
     margin: auto;
@@ -860,6 +1209,8 @@
 }
 
 /* End of Seventh Page */
+
+/* Start of Eight Page */
 
 .eight_page {
   margin-left: auto;
